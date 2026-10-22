@@ -4,6 +4,8 @@
 .kotlin/
 .idea/
 build/
+# ...but not source packages that happen to be called "build" (build-logic's lian.build plugins).
+!**/src/**/build/
 captures/
 .externalNativeBuild/
 .cxx/
