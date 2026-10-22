@@ -1,0 +1,26 @@
+# Where apps come from (Phase 3.4). Curated; reviewed in pull requests.
+# kind	package	name	reviewed	must be a system app
+# kind: store = an app store; installer = the system's "open an APK file" installer; shell = adb.
+# "must be a system app": the store comes preinstalled, so a non-system app using that package name is a fake
+# (e.g. a sideloaded app squatting com.android.vending on a phone without Google Play).
+store	com.android.vending	Google Play	yes	yes
+store	com.sec.android.app.samsungapps	Galaxy Store	yes	yes
+store	com.huawei.appmarket	Huawei AppGallery	yes	yes
+store	com.hihonor.appmarket	HONOR App Market	yes	yes
+store	com.xiaomi.market	Xiaomi GetApps	yes	yes
+store	com.xiaomi.mipicks	Xiaomi GetApps	yes	yes
+store	com.heytap.market	OPPO / OnePlus App Market	yes	yes
+store	com.oppo.market	OPPO App Market	yes	yes
+store	com.bbk.appstore	vivo V-Appstore	yes	yes
+store	com.amazon.venezia	Amazon Appstore	yes	no
+store	org.fdroid.fdroid	F-Droid	no	no
+store	org.fdroid.basic	F-Droid Basic	no	no
+store	com.looker.droidify	Droid-ify	no	no
+store	com.machiav3lli.fdroid	Neo Store	no	no
+store	com.aurora.store	Aurora Store	no	no
+store	dev.imranr.obtainium	Obtainium	no	no
+installer	com.google.android.packageinstaller	Package installer	no	yes
+installer	com.android.packageinstaller	Package installer	no	yes
+installer	com.samsung.android.packageinstaller	Package installer	no	yes
+installer	com.miui.packageinstaller	Package installer	no	yes
+shell	com.android.shell	adb (USB debugging)	no	yes

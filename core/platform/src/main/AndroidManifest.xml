@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <!-- Hostile-input parsing (Phase 3.5): own UID, no permissions, no file access, not exported. -->
+        <service
+            android:name=".untrusted.UntrustedContentService"
+            android:exported="false"
+            android:isolatedProcess="true"
+            android:process=":untrusted" />
+    </application>
+</manifest>

@@ -1,0 +1,11 @@
+# Android versions and whether they still receive security fixes, from the AOSP Android Security Bulletins.
+# Updated with each release. Versions newer than the last row are treated as supported.
+# sdk	status (ended | ending | supported)	version
+30	ended	Android 11
+31	ended	Android 12
+32	ended	Android 12L
+33	ended	Android 13 (left the bulletins in March 2026)
+34	ending	Android 14 (oldest version still in the September 2026 bulletin)
+35	supported	Android 15
+36	supported	Android 16
+37	supported	Android 17

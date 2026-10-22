@@ -1,0 +1,5 @@
+# TLDs where domain labels written entirely in a non-Latin script are expected, so a whole-script
+# look-alike is not by itself suspicious there. Script names are java.lang.Character.UnicodeScript.
+# script	tlds
+CYRILLIC	ru,su,by,ua,bg,kz,kg,tj,mk,rs,mn,uz,рф,бел,укр,бг,қаз,мкд,срб,мон,рус,онлайн,сайт,москва,дети,орг,ком
+GREEK	gr,cy,ελ,ευ

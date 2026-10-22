@@ -1,0 +1,45 @@
+# Gradle, Kotlin and Android Studio
+*.iml
+.gradle/
+.kotlin/
+.idea/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
+local.properties
+
+# Built deliverables are published as release assets, not committed.
+dist/
+*.apk
+*.aab
+
+# Signing material never enters the repository.
+*.jks
+*.keystore
+*.p12
+keystore.properties
+
+# Secrets and environment files
+.env
+.env.*
+secrets.properties
+
+# Logs and caches
+*.log
+.cache/
+
+# Personal material kept outside the repository (thesis report, marketing assets)
+thesis/
+fiverr/
+
+# Assistant and editor folders
+.claude/
+.vscode/
+
+# OS and Office files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*

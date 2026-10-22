@@ -1,0 +1,9 @@
+# Premium-rate and scam-prone number ranges, as E.164 prefixes.
+# prefix	region	description
++449	GB	premium-rate number (09)
++44118	GB	directory enquiries (118), charged per minute
++4470	GB	personal number (070), often used to impersonate mobiles
++44871	GB	service-charge number (0871)
++44872	GB	service-charge number (0872)
++44873	GB	service-charge number (0873)
++1900	US	premium-rate number (1-900)

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#FF120F1B</color>
+    <color name="brand_start">#FFC9BFFF</color>
+    <color name="brand_mid">#FF8273FF</color>
+    <color name="brand_end">#FF5AA9FF</color>
+    <color name="brand_solid">#FF6D5DF0</color>
+    <color name="monogram_dot">#FF6EF0CF</color>
+</resources>

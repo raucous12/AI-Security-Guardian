@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- LIAN monogram: the stem is both the I and the L; the dot is the I's tittle. -->
+    <group android:translateX="0.9" android:translateY="1.2">
+        <path android:pathData="M41.7,71.25L62.7,71.25A3.6,3.6 0,0 0,62.7 64.05L50.4,64.05A1.5,1.5 0,0 1,48.9 62.55L48.9,51.45A3.6,3.6 0,0 0,41.7 51.45Z" android:fillColor="#33140A55" />
+    </group>
+    <path android:pathData="M41.7,71.25L62.7,71.25A3.6,3.6 0,0 0,62.7 64.05L50.4,64.05A1.5,1.5 0,0 1,48.9 62.55L48.9,51.45A3.6,3.6 0,0 0,41.7 51.45Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M45.3,40.35m-6.4,0a6.4,6.4 0,1 1,12.8 0a6.4,6.4 0,1 1,-12.8 0" android:fillColor="@color/monogram_dot" android:fillAlpha="0.28" />
+    <path android:pathData="M45.3,40.35m-3.9,0a3.9,3.9 0,1 1,7.8 0a3.9,3.9 0,1 1,-7.8 0" android:fillColor="@color/monogram_dot" />
+</vector>

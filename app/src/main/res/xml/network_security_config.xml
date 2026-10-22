@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Backstop only: the app has no INTERNET permission, so the kernel refuses its IP sockets.
+    If networking were ever added by mistake, cleartext is forbidden and no certificate authority is
+    trusted, so no TLS connection could complete either. This replaces certificate pinning (Phase 3.8.2).
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors />
+    </base-config>
+</network-security-config>

@@ -1,0 +1,21 @@
+# Text is stored and checked out with LF everywhere (the build, gradlew and the data parsers expect LF).
+* text=auto eol=lf
+
+# Windows scripts keep CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Bundled data and training corpora are hashed byte-for-byte: never convert their line endings.
+core/intel/src/main/resources/** -text
+core/intel/src/test/resources/** -text
+tools/trainer/corpus/** -text
+
+# Binary files
+*.jar binary
+*.gz binary
+*.zip binary
+*.vgm binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.pdf binary

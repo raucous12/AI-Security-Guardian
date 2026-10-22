@@ -1,0 +1,58 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <!-- Android 12+ system splash: the L draws itself as one stroke, then the I's dot drops onto it and bounces. -->
+    <aapt:attr name="android:drawable">
+        <vector
+            android:width="108dp"
+            android:height="108dp"
+            android:viewportWidth="108"
+            android:viewportHeight="108">
+            <path
+                android:name="ell"
+                android:pathData="M45.3,51.45L45.3,67.65L62.7,67.65"
+                android:strokeColor="#FFFFFFFF"
+                android:strokeWidth="7.2"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="miter"
+                android:trimPathEnd="0" />
+            <group android:name="dot" android:translateY="-30">
+                <path
+                    android:name="dotPath"
+                    android:pathData="M45.3,40.35m-3.9,0a3.9,3.9 0,1 1,7.8 0a3.9,3.9 0,1 1,-7.8 0"
+                    android:fillColor="@color/monogram_dot"
+                    android:fillAlpha="0" />
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="ell">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="trimPathEnd"
+                android:duration="420"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="dot">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="translateY"
+                android:startOffset="380"
+                android:duration="560"
+                android:valueFrom="-30"
+                android:valueTo="0"
+                android:interpolator="@android:interpolator/bounce" />
+        </aapt:attr>
+    </target>
+    <target android:name="dotPath">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="fillAlpha"
+                android:startOffset="380"
+                android:duration="120"
+                android:valueFrom="0"
+                android:valueTo="1" />
+        </aapt:attr>
+    </target>
+</animated-vector>

@@ -1,0 +1,226 @@
+# Hand-written training examples (label<TAB>text), 1 = scam/spam, 0 = genuine.
+# Purpose: cover 2023–2026 scam formats and genuine transactional texts that the 2011–2022 public datasets lack.
+# Used for TRAINING ONLY; never part of the validation or test splits, so reported metrics are on public data alone.
+# Links and numbers are replaced by placeholders by the featurizer, so the exact values below don't matter.
+1	Royal Mail: Your parcel is being held due to an unpaid shipping fee of £1.45. Pay now to avoid return: https://royalmail-fee.com/uk
+1	Evri: We missed you today. Your parcel will be returned unless you reschedule and pay £0.99 at https://evri-redelivery.info
+1	USPS: Your package could not be delivered due to an incomplete address. Update within 12 hours: https://usps-trackhelp.top
+1	DHL: Your shipment is on hold. Customs duty of $2.30 must be paid today. https://dhl-customs-pay.xyz
+1	FedEx: delivery attempt failed. Confirm your details and pay the redelivery fee here https://fedex-reship.cc
+1	India Post: your parcel has arrived at the warehouse but the address is incomplete. Update within 48 hours or it will be returned https://indiapost-in.top
+1	E-ZPass: You have an unpaid toll of $4.15. Pay by tomorrow to avoid a $50 late fee: https://ezpass-tolls.vip
+1	FasTrak notice: an outstanding toll balance on your account. Settle now to avoid penalties https://fastrak-pay.click
+1	SunPass: Final reminder of unpaid tolls. Your vehicle registration may be suspended. Pay at https://sunpass-billing.icu
+1	The Toll Roads: your balance of $6.99 is overdue. Avoid DMV suspension, pay today https://thetollroads-help.top
+1	Barclays: Did you attempt a payment of £749.00 to Apple Pay? If NOT, call our fraud team immediately on 02039 123456
+1	HSBC ALERT: A new device has been added to your account. If this wasn't you, verify your identity at https://hsbc-secure-device.com
+1	Lloyds: your account has been temporarily restricted due to suspicious activity. Restore access: https://lloyds-verify-id.com
+1	Chase: we have locked your debit card after unusual activity. Unlock it now at https://chase-unlock-card.net
+1	Wells Fargo: Your online access is suspended. Please log in to reactivate https://wellsfargo-online-reactivate.com
+1	SBI: Dear customer your YONO account will be blocked today. Please update your PAN card immediately click https://sbi-kyc-update.in.net
+1	Dear customer, your KYC has expired. Your bank account will be suspended within 24 hours. Update KYC now: https://kyc-update-bank.top
+1	HDFC Bank: Your NetBanking will be deactivated today. Update PAN details using link https://hdfc-pan-update.co
+1	Dear consumer your electricity power will be disconnected tonight at 9.30pm because your previous month bill was not updated. Please contact our officer 9876543210
+1	Your electricity connection will be cut today. Call electricity officer immediately on 8765432109 to avoid disconnection
+1	Apple: Your Apple ID has been locked for security reasons. Confirm your details within 24h or it will be disabled https://appleid-unlock-support.com
+1	Netflix: Your payment was declined and your membership is on hold. Update your billing info https://netflix-billing-update.com
+1	Amazon: We were unable to process your Prime renewal. Update your payment method to keep your benefits https://amazon-prime-renew.top
+1	PayPal: we noticed unusual activity. Your account is limited until you confirm your information https://paypal-resolution-center.net
+1	Microsoft: your Office 365 mailbox is full and incoming messages are on hold. Release them here https://outlook-storage-release.com
+1	Your Instagram account will be permanently deleted for copyright violation. Appeal within 24 hours: https://ig-copyright-appeal.com
+1	Facebook security: someone tried to log in to your account. Secure it now https://fb-secure-login.info
+1	WhatsApp: your account will expire today. Verify your number to continue using the service https://whatsapp-verify.top
+1	HMRC: You are due a tax refund of £326.40. Claim it now before it expires https://hmrc-taxrefund-claim.com
+1	IRS: You are eligible for a tax refund of $1,240. Submit your claim form today https://irs-refund-portal.com
+1	Income Tax Department: refund of Rs 15,490 approved. Verify your account number to receive it https://incometax-refund.in.net
+1	GOV.UK: you are eligible for the energy bills discount of £400. Apply before Friday https://gov-energy-support.uk.com
+1	DVLA: your vehicle tax payment failed. Update your details to avoid a fine https://dvla-vehicletax-renew.com
+1	Hi Mum, I dropped my phone in the toilet and this is my new number. Can you text me on WhatsApp? xx
+1	Hi Dad it's me, I've lost my phone. Using a friend's for now. Can you help me pay a bill today? I'll pay you back tomorrow
+1	Hey mum new phone, can you save this number. I need a favour, I can't access my banking app
+1	Hello, I am your daughter, my phone is broken. Please send 500 to this account urgently, I will explain later
+1	Part-time job: earn $300-$800 per day working from home, only 30 minutes a day. Contact our HR on WhatsApp
+1	Hello! We saw your CV online. Remote job, flexible hours, daily pay 5000 INR. Reply YES to receive details
+1	Hi, I'm a recruiter from a digital marketing company. Simple online tasks, earn 200 to 500 dollars daily. Interested?
+1	Congratulations! You have been selected for a work from home opportunity. Like YouTube videos and earn money daily. Telegram us now
+1	Invest $250 in Bitcoin and earn up to $5,000 in a week. Our AI trading platform guarantees profit. Join now
+1	Your crypto wallet has been compromised. Move your funds to the secure wallet immediately https://wallet-secure-sync.io
+1	Exclusive USDT mining offer: double your investment in 7 days. Limited slots, reply now
+1	Congratulations! You have won a brand new iPhone 16 in our customer loyalty draw. Claim your prize now https://claim-gift-now.top
+1	You have been chosen to receive a $1000 Walmart gift card. Click to claim before it expires https://walmart-rewards-claim.com
+1	Dear winner, your number won 25,00,000 in the KBC lucky draw. Contact Mr Sharma on WhatsApp to claim
+1	Sorry, I accidentally sent you a 6 digit verification code. Can you please send it back to me? It's urgent
+1	Hi, this is customer support. To cancel the unauthorised transaction please share the OTP you just received
+1	Please forward the code you just received to confirm your identity and stop the fraudulent payment
+1	Are you available? I need you to buy some Google Play gift cards for a client. Keep this between us, I'll reimburse you
+1	I'm in a meeting right now. Can you get 4 Apple gift cards of $100 each and send me the codes? Urgent
+1	Your loan of Rs 50,000 is pre-approved with zero documents. Get instant money now https://instant-loan-approve.in
+1	Final notice: your car warranty is about to expire. Call now to renew before your coverage ends
+1	Medicare: you qualify for a free back brace and new benefits card. Call today to confirm your eligibility
+1	Your Amazon order of an iPhone 15 Pro for $1,299 has been placed. If you didn't place this order call 1-888-555-0199
+1	Your Norton subscription renewed for $399.99. To cancel and get a refund call our billing department now
+1	Geek Squad: auto-renewal of $349.99 was successful. Not you? Call support immediately to stop the charge
+1	Your Google Pay account has been charged Rs 9,999. If not done by you, call customer care 8000012345
+1	Your Steam account is under investigation for fraudulent trading. Verify ownership https://steam-community-verify.com
+1	Hi, is this Jessica? We met at the conference last month. My name is Amy, I work in crypto trading
+1	Sorry wrong number! But you seem nice, may I know your name? I'm new to the city
+1	Your mobile number has won a free data recharge of 100GB. Activate now https://free-recharge-offer.top
+1	Jio: your SIM card will be blocked within 24 hours due to incomplete eKYC. Call 7000012345 to avoid
+1	Vodafone: your account is overdue and your service will be suspended. Pay now to avoid disconnection https://vodafone-billpay.info
+1	Your EE bill payment failed. Update your card details to avoid service interruption https://ee-payment-update.com
+1	Council tax rebate: you are owed £150. Fill in your bank details to receive it https://counciltax-rebate.org.uk.com
+1	TV Licensing: your licence has expired and direct debit failed. Renew now to avoid prosecution https://tvlicence-renew.uk.net
+1	NHS: you have been contacted by someone who tested positive. Order your PCR test kit for a small fee https://nhs-test-kit.com
+1	Your parcel has been seized by customs. A clearance fee of £2.99 is required within 24 hours https://customs-clearance-uk.com
+1	Post Office: your package delivery failed due to missing house number. Confirm address and pay £1.20 https://postoffice-redeliver.com
+1	Your Costco membership rewards are about to expire. Redeem your $500 voucher now https://costco-rewards-points.com
+1	We detected a virus on your phone! Your data is at risk. Install the cleaner app immediately https://phone-cleaner-pro.apk.top
+1	Your account has been used to send spam. To avoid suspension download our security update https://update-security-app.com/app.apk
+1	Kindly confirm your account details to receive your pending payment of $2,500 from the compensation fund
+1	URGENT: Your social security number has been suspended due to suspicious activity. Press 1 to speak to an officer
+1	Police notice: a case has been registered against your Aadhaar number. Call the cyber cell immediately to avoid arrest
+1	FedEx: a parcel containing illegal items was found in your name. You will be arrested unless you contact the officer now
+1	Your son has been arrested. Pay the bail amount now to release him. Do not tell anyone
+1	Get a guaranteed government grant of $9,000. You never have to pay it back. Reply GRANT to apply
+1	Last chance! 90% OFF all designer bags today only. Shop now https://luxury-outlet-sale.shop
+1	Your Ray-Ban order is ready, pay only shipping $1.99 to receive https://rayban-outlet-deal.top
+1	Act now: lose 10kg in 2 weeks with this miracle pill. Free trial, just pay shipping https://slim-free-trial.com
+1	You have a pending refund from your energy supplier of £218.73. Claim before midnight https://energy-refund-claim.co
+1	Your Binance account has a withdrawal request of 0.85 BTC. If this was not you, cancel here https://binance-withdraw-cancel.com
+1	Coinbase: unrecognised sign-in attempt. Secure your wallet now by verifying your seed phrase https://coinbase-wallet-verify.com
+1	Your iCloud storage is full. Your photos will be deleted today. Upgrade for free with this offer https://icloud-storage-free.top
+1	Dear user your 5G upgrade is ready. Activate now or your number will be deactivated https://5g-upgrade-activate.top
+1	Your package is waiting. We need you to pay the import VAT of 1.99 EUR within 24 hours https://postnl-vat-pay.com
+1	ANPOST: your parcel cannot be delivered because customs fees are unpaid. Pay €2.40 here https://anpost-fees.info
+1	Bank of America: your Zelle transfer of $950 is pending. If you did not authorise it, reply NO
+1	Venmo: you received $500 but your account must be upgraded to business to accept it. Upgrade fee $50
+1	Cash App: your account has been flagged. Send $1 to verify your identity and unlock your balance
+1	Your Microsoft account will be closed. Click to keep your account active and avoid losing your files https://ms-account-keep.com
+1	Dear customer, your credit card reward points worth Rs 7,450 will expire today. Redeem now https://reward-points-redeem.in
+1	Win a free trip to Dubai! You have been selected. Pay a refundable registration fee to confirm your seat
+1	Your DPD parcel has an outstanding fee. Pay now otherwise it will be returned to sender https://dpd-parcel-fee.org
+1	Free entry! Text WIN to 80888 now to win £2000 cash. T&Cs apply, £2.50 per message
+1	Hello, my dear. I am a widow with $4.5 million to transfer and I need a trusted partner. Reply with your details
+1	Your Paytm KYC is pending. Your wallet will be blocked tonight. Call our executive at 9123456780
+0	123456 is your Google verification code. Don't share it with anyone.
+0	Your WhatsApp code: 482-917. Don't share this code with others.
+0	Use 739201 to verify your Microsoft account. If you didn't request this, you can ignore this message.
+0	Your Amazon OTP is 553201. Do not share it with anyone. Amazon will never ask for it.
+0	G-482911 is your Google verification code.
+0	Your Uber code is 4821. Never share this code.
+0	884213 is your Instagram code. Don't share it.
+0	HDFC Bank: OTP for txn of Rs 1,250.00 at AMAZON is 482910. Valid for 10 mins. Do not share this OTP with anyone.
+0	Your one-time password for login is 902114. It expires in 5 minutes. We will never call you to ask for it.
+0	Apple Account code: 381920. Do not share it with anyone.
+0	Your Royal Mail parcel is due for delivery today between 11:30 and 13:30.
+0	Your Amazon package was delivered. It was handed to a resident.
+0	Evri: your parcel from ASOS will be delivered tomorrow. Track it in the Evri app.
+0	DPD: Your parcel will be delivered today between 14:05 and 15:05 by Mark.
+0	Your order #4471 has shipped and should arrive on Thursday. Thanks for shopping with us!
+0	Your food order is on its way and should arrive in 25 minutes.
+0	Your Uber is arriving now. Look for the grey Toyota Prius.
+0	Your table for 4 at Dishoom is confirmed for Saturday at 7:30pm. Reply C to cancel.
+0	Reminder: your dentist appointment is tomorrow at 10:40. Please reply YES to confirm or call us to rearrange.
+0	Your GP appointment is on 14 Oct at 09:20 with Dr Patel. To cancel, call the surgery.
+0	Your prescription is ready to collect from Boots, High Street.
+0	Barclays: you spent £24.60 at TESCO STORES. Balance £1,203.15.
+0	HDFC Bank: Rs 2,500.00 debited from a/c XX1234 on 01-10-26 to UPI/merchant. Not you? Call 18002586161.
+0	Chase: A $45.20 purchase at Target was made with your card ending 1234.
+0	Your salary of £2,450.00 has been paid into your account.
+0	Monzo: you received £20.00 from Sam for pizza.
+0	Your bill for September is ready. £32.40 will be collected by direct debit on 15 October.
+0	Your EE bill is ready: £18.99. No action needed, we'll take payment as usual.
+0	Your Netflix payment for this month was successful. Enjoy watching!
+0	Thanks for your payment of £120.00 to British Gas.
+0	Your verification is complete and your account is now active. Welcome aboard!
+0	Your password was changed. If this was you, no action is needed.
+0	You signed in on a new device. If this was you, you can ignore this message.
+0	running 10 min late, save me a seat
+0	can you pick up milk and bread on your way home
+0	Happy birthday!! Hope you have an amazing day xx
+0	did you see the match last night? unbelievable finish
+0	I'm outside, come down when you're ready
+0	Thanks for dinner tonight, it was lovely to catch up
+0	What time does the train leave tomorrow?
+0	Mum here, did you get home ok? Text me when you're back
+0	Love you, see you at the weekend
+0	Can you send me the photos from the party?
+0	Meeting moved to 3pm, same room
+0	The plumber is coming between 8 and 10 tomorrow, can you let him in?
+0	I've transferred the money for the tickets, let me know when you get it
+0	Don't forget it's bin day tomorrow
+0	Are we still on for coffee on Friday?
+0	Just landed, will call you when I'm through security
+0	Sorry I missed your call, I'll ring you back after work
+0	Can you check if I left my keys on the kitchen table?
+0	Great news, I got the job! Starting next month
+0	The kids' school is closed tomorrow because of the storm.
+0	School newsletter: parents evening is on Thursday 12 Oct from 4pm to 7pm.
+0	Your library books are due back on 20 October. Renew online or in branch.
+0	Gym reminder: your spin class starts at 6:30pm tonight.
+0	Your car is booked in for its MOT on Monday at 8:30am.
+0	Your train 17:42 to Manchester is delayed by about 10 minutes. We're sorry for the delay.
+0	Flight BA287 is boarding at gate 22. Have a pleasant flight.
+0	Your hotel booking is confirmed: 2 nights from 12 Oct. Check-in from 3pm.
+0	Your new debit card has been dispatched and should arrive in 3-5 working days.
+0	Your card will expire soon. A replacement is on its way, no action needed.
+0	We've received your tax return. You don't need to do anything else.
+0	Your passport application has been received and is being processed.
+0	Water supply will be interrupted on Tuesday between 9am and 1pm for maintenance.
+0	Power cut in your area: engineers are working on it, estimated restore time 6pm.
+0	Your parcel has been left in your safe place: porch.
+0	We tried to deliver your parcel today and left a card. You can rebook delivery in the app.
+0	Your package will arrive today. You can track it in the Amazon app.
+0	Your Zomato order from Burger King is out for delivery.
+0	Swiggy: your order will arrive in 18 minutes.
+0	Your Flipkart order has been delivered. Rate your experience in the app.
+0	Your Jio recharge of Rs 299 was successful. Validity 28 days.
+0	Airtel: 75% of your daily data has been used.
+0	Paytm: Rs 150 paid to Ramesh Kirana Store. UPI Ref 1234567890.
+0	SBI: Your a/c XX4321 is credited by Rs 5,000.00 on 30Sep26 by transfer from RAHUL K.
+0	Your appointment with the bank on Tuesday at 2pm is confirmed. Please bring photo ID.
+0	Hey, it's Priya from work, this is my new number. See you at the team lunch tomorrow!
+0	Hi Mum, the train is running late, I'll be home around 9. Don't wait up for dinner.
+0	Dad, can you pick me up from football practice at 6?
+0	Your vote has been counted. Thank you for taking part in the residents' survey.
+0	Your doctor has sent you a message. Log in to the NHS App to read it.
+0	Reminder: your flu vaccination is due. Book through your GP practice.
+0	Your Spotify Premium plan renews on 5 November for £11.99.
+0	Your Microsoft 365 subscription renews next month. Manage it in your account settings.
+0	Your Google storage is 80% full. You can free up space in Google One.
+0	Your Apple Watch backup is complete.
+0	Your security code for the parking app is 7781.
+0	Your Wi-Fi password for the guest network is on the back of the router.
+0	Congratulations on your graduation! So proud of you.
+0	Reminder: rent is due on the 1st. Thanks!
+0	We have received your refund request and will process it within 5 working days.
+0	Your refund of £15.99 has been issued to your original payment method.
+0	Your account statement for September is now available in online banking.
+0	Bank of America: Your Zelle payment of $40.00 to Alex was sent.
+0	Venmo: Jordan paid you $12.50 for lunch.
+0	Your Lyft ride receipt: $14.20. Thanks for riding!
+0	DoorDash: your Dasher is approaching with your order.
+0	Your parcel locker code is 5522. Collect from the InPost locker at the station.
+0	Your Tesco Clubcard voucher worth £5 is now available in the app.
+0	Order confirmed! Your tickets for Saturday's show are in your account.
+0	Weather warning: heavy rain expected tonight. Take care on the roads.
+0	Hi, this is Sarah from the dental practice. We have a cancellation tomorrow at 11 if you'd like an earlier appointment.
+0	Hi John, just confirming the delivery of your sofa on Wednesday morning. Please reply if that's not convenient.
+0	Your account has been verified. You can now send and receive payments.
+0	Please verify your email address by tapping the link in the email we just sent you.
+0	Your login code for the council website is 442190.
+0	Sorry, wrong number!
+0	No worries, have a good evening
+0	ok see you soon
+0	thank you so much
+0	ha ha that's hilarious
+0	call me when you can
+0	on my way
+0	yes please, that would be great
+0	The meeting link is in the calendar invite, see you at 10.
+0	Can you review the document before Friday? Thanks
+0	Your Teams meeting starts in 15 minutes.
+0	Your interview is confirmed for Monday at 11am at our London office. Please bring ID.
+0	We've received your job application and will be in touch within two weeks.
+0	Your payslip for September is available in the HR portal.
+0	Reminder: timesheets are due by Friday 5pm.

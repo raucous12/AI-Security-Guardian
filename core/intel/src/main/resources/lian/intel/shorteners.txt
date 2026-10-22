@@ -1,0 +1,24 @@
+# Link-shortening services: the real destination can't be known offline, and Vigil never follows links.
+bit.ly
+bitly.com
+tinyurl.com
+t.co
+goo.gl
+ow.ly
+is.gd
+v.gd
+buff.ly
+rebrand.ly
+cutt.ly
+shorturl.at
+rb.gy
+t.ly
+tiny.cc
+s.id
+lnkd.in
+bit.do
+qrco.de
+shorte.st
+adf.ly
+bl.ink
+surl.li

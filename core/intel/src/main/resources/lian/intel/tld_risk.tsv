@@ -1,0 +1,26 @@
+# Provisional TLD abuse tiers, curated from public abuse-rate reporting (e.g. Interisle's Phishing
+# Landscape, Spamhaus TLD reputation). Indicator only (weights 10-20); review every release.
+# tld	weight	note
+top	15	frequently abused cheap domain ending
+xyz	10	frequently abused cheap domain ending
+icu	15	frequently abused cheap domain ending
+buzz	15	frequently abused cheap domain ending
+cfd	15	frequently abused cheap domain ending
+sbs	15	frequently abused cheap domain ending
+bond	15	frequently abused cheap domain ending
+cyou	15	frequently abused cheap domain ending
+rest	10	frequently abused cheap domain ending
+click	10	frequently abused cheap domain ending
+lol	10	frequently abused cheap domain ending
+monster	10	frequently abused cheap domain ending
+quest	10	frequently abused cheap domain ending
+shop	10	frequently abused cheap domain ending
+online	10	frequently abused cheap domain ending
+site	10	frequently abused cheap domain ending
+tk	15	formerly free domain ending, heavily abused
+ml	15	formerly free domain ending, heavily abused
+ga	15	formerly free domain ending, heavily abused
+cf	15	formerly free domain ending, heavily abused
+gq	15	formerly free domain ending, heavily abused
+zip	20	looks like a file name (invoice.zip)
+mov	20	looks like a file name (video.mov)

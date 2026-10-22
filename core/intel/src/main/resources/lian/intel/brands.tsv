@@ -1,0 +1,72 @@
+# Most-impersonated brands (seed list v2026.09; expand for each launch market before release).
+# label	official registrable domains	owns ccTLDs	official Android packages	legitimate near-matches	category
+# A domain counts as official only if listed here (or, with "yes", <label>.<2-letter ccTLD>).
+apple	apple.com,icloud.com,me.com,apple.co		com.apple.android.music		tech
+icloud	icloud.com				tech
+google	google.com,gmail.com,youtube.com,g.co	yes	com.google.android.googlequicksearchbox		tech
+gmail	gmail.com		com.google.android.gm		tech
+youtube	youtube.com,youtu.be		com.google.android.youtube		tech
+microsoft	microsoft.com,microsoftonline.com,live.com,outlook.com,office.com,office365.com,windows.com,xbox.com				tech
+outlook	outlook.com,live.com		com.microsoft.office.outlook		tech
+adobe	adobe.com				tech
+dropbox	dropbox.com		com.dropbox.android		tech
+docusign	docusign.com,docusign.net		com.docusign.ink		tech
+yahoo	yahoo.com	yes			tech
+amazon	amazon.com	yes	com.amazon.mShop.android.shopping		shopping
+ebay	ebay.com	yes	com.ebay.mobile		shopping
+walmart	walmart.com				shopping
+costco	costco.com				shopping
+flipkart	flipkart.com		com.flipkart.android		shopping
+aliexpress	aliexpress.com		com.alibaba.aliexpresshd		shopping
+airbnb	airbnb.com	yes	com.airbnb.android		travel
+netflix	netflix.com		com.netflix.mediaclient		streaming
+spotify	spotify.com		com.spotify.music		streaming
+facebook	facebook.com,fb.com,fb.me		com.facebook.katana		social
+instagram	instagram.com		com.instagram.android		social
+whatsapp	whatsapp.com,whatsapp.net,wa.me		com.whatsapp		social
+linkedin	linkedin.com,lnkd.in		com.linkedin.android		social
+twitter	twitter.com,x.com,t.co		com.twitter.android		social
+tiktok	tiktok.com		com.zhiliaoapp.musically		social
+snapchat	snapchat.com		com.snapchat.android		social
+telegram	telegram.org,t.me,telegram.me		org.telegram.messenger		social
+discord	discord.com,discord.gg,discordapp.com		com.discord		social
+steamcommunity	steamcommunity.com,steampowered.com		com.valvesoftware.android.steam.community		gaming
+steampowered	steampowered.com,steamcommunity.com				gaming
+roblox	roblox.com		com.roblox.client		gaming
+paypal	paypal.com,paypal.me		com.paypal.android.p2pmobile	paypay	payments
+venmo	venmo.com		com.venmo		payments
+revolut	revolut.com		com.revolut.revolut		payments
+monzo	monzo.com		co.uk.getmondo		bank
+starlingbank	starlingbank.com				bank
+barclays	barclays.co.uk,barclays.com				bank
+hsbc	hsbc.co.uk,hsbc.com	yes			bank
+lloydsbank	lloydsbank.com,lloydsbank.co.uk				bank
+natwest	natwest.com				bank
+santander	santander.co.uk,santander.com	yes			bank
+halifax	halifax.co.uk				bank
+nationwide	nationwide.co.uk,nationwide.com				bank
+bankofamerica	bankofamerica.com				bank
+wellsfargo	wellsfargo.com				bank
+citibank	citibank.com,citi.com				bank
+capitalone	capitalone.com				bank
+americanexpress	americanexpress.com,aexp.com				bank
+mastercard	mastercard.com	yes			payments
+hdfcbank	hdfcbank.com				bank
+icicibank	icicibank.com				bank
+axisbank	axisbank.com				bank
+onlinesbi	onlinesbi.sbi				bank
+paytm	paytm.com		net.one97.paytm		payments
+phonepe	phonepe.com		com.phonepe.app		payments
+coinbase	coinbase.com		com.coinbase.android		crypto
+binance	binance.com		com.binance.dev		crypto
+metamask	metamask.io		io.metamask		crypto
+royalmail	royalmail.com				delivery
+evri	evri.com				delivery
+dhl	dhl.com,dhl.co.uk,dhl.de				delivery
+fedex	fedex.com				delivery
+usps	usps.com				delivery
+auspost	auspost.com.au				delivery
+indiapost	indiapost.gov.in				delivery
+hmrc	hmrc.gov.uk				government
+dvla	dvla.gov.uk				government
+irs	irs.gov				government
